@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "USBDataCapture", "USBDataCapture\USBDataCapture.vcproj", "{9235152B-DB43-42A4-963D-A89995A16385}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatchWord", "MatchWord\MatchWord.vcproj", "{30A941AC-4149-44C9-900D-DB39AF6DB7E4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TektronixFormat", "..\TektronixFormat\TektronixFormat.vcproj", "{D07A57F8-272D-4BE7-90CD-E33A64495771}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MotorASIC", "..\MotorASIC\MotorASIC.vcproj", "{39F8D9F6-2D2F-4DF7-B9D2-A11C71C6B731}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serial_monitor", "serial_monitor\serial_monitor.vcproj", "{C1AB85DE-8D2C-4DC5-9C83-E2511AC81055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9235152B-DB43-42A4-963D-A89995A16385}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9235152B-DB43-42A4-963D-A89995A16385}.Debug|Win32.Build.0 = Debug|Win32
+		{9235152B-DB43-42A4-963D-A89995A16385}.Release|Win32.ActiveCfg = Release|Win32
+		{9235152B-DB43-42A4-963D-A89995A16385}.Release|Win32.Build.0 = Release|Win32
+		{30A941AC-4149-44C9-900D-DB39AF6DB7E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30A941AC-4149-44C9-900D-DB39AF6DB7E4}.Debug|Win32.Build.0 = Debug|Win32
+		{30A941AC-4149-44C9-900D-DB39AF6DB7E4}.Release|Win32.ActiveCfg = Release|Win32
+		{30A941AC-4149-44C9-900D-DB39AF6DB7E4}.Release|Win32.Build.0 = Release|Win32
+		{D07A57F8-272D-4BE7-90CD-E33A64495771}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D07A57F8-272D-4BE7-90CD-E33A64495771}.Debug|Win32.Build.0 = Debug|Win32
+		{D07A57F8-272D-4BE7-90CD-E33A64495771}.Release|Win32.ActiveCfg = Release|Win32
+		{D07A57F8-272D-4BE7-90CD-E33A64495771}.Release|Win32.Build.0 = Release|Win32
+		{39F8D9F6-2D2F-4DF7-B9D2-A11C71C6B731}.Debug|Win32.ActiveCfg = Debug|Win32
+		{39F8D9F6-2D2F-4DF7-B9D2-A11C71C6B731}.Debug|Win32.Build.0 = Debug|Win32
+		{39F8D9F6-2D2F-4DF7-B9D2-A11C71C6B731}.Release|Win32.ActiveCfg = Release|Win32
+		{39F8D9F6-2D2F-4DF7-B9D2-A11C71C6B731}.Release|Win32.Build.0 = Release|Win32
+		{C1AB85DE-8D2C-4DC5-9C83-E2511AC81055}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1AB85DE-8D2C-4DC5-9C83-E2511AC81055}.Debug|Win32.Build.0 = Debug|Win32
+		{C1AB85DE-8D2C-4DC5-9C83-E2511AC81055}.Release|Win32.ActiveCfg = Release|Win32
+		{C1AB85DE-8D2C-4DC5-9C83-E2511AC81055}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
