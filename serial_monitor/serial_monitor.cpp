@@ -147,10 +147,10 @@ int _tmain(int argc, _TCHAR* argv[])
         loc = (last_loc + b) % 128;
         loc1 = (loc + 1) % 128;
 
-        if(Data[loc] > 0)
+        if(Data[loc1] > 0)
         {
           last_loc_next = loc;
-          capture_data.push_back(Data[loc1]); 
+          capture_data.push_back(Data[loc]); 
           rx_count++;
 
           if(rx_count >= capture_size_bytes)
